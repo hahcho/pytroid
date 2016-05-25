@@ -20,4 +20,9 @@ setup(
     ],
     keywords='nes emulator nintendo',
     packages=find_packages(),
+    entry_points={
+        'console_scripts': [
+            'pytroid=pytroid:main',
+        ],
+    },
 )
